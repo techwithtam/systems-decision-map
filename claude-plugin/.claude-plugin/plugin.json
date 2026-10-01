@@ -1,0 +1,9 @@
+{
+  "name": "systems-decision-map",
+  "version": "1.0.0",
+  "description": "Assess a business problem before choosing a process change, automation, or AI.",
+  "author": {
+    "name": "Tech With Tam",
+    "url": "https://techwithtam.com"
+  }
+}
