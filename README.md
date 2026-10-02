@@ -1,23 +1,54 @@
 # Systems Decision Map
 
-Assess a business problem before choosing a process change, automation, or AI.
+Work through a business problem before deciding what to change. For founders and
+operations leads considering a process change, automation, or AI.
 
-## What is included
+**[Download the skill ZIP](https://github.com/techwithtam/systems-decision-map/releases/latest/download/systems-decision-map.zip)**
+· [Read the complete skill](SKILL.md)
 
-`SKILL.md` contains the reusable instructions. Keep the entire skill folder together so its relative links, references, and icon continue to work.
+The ZIP contains one folder with one file:
 
-## Use the skill
+```text
+systems-decision-map/
+└── SKILL.md
+```
 
-Give the complete folder or skill ZIP to an assistant that can read files. Ask it to read `SKILL.md` and follow the linked references before working on your input. This lets you try the instructions without claiming a native installation.
+All instructions and examples are in that file. No plugins, code, API keys, or
+account connections are required.
 
-Native skill installation depends on the assistant and workspace you use. The package contains instructions and assets, with no scripts, account connection, API key, or hosted service. It does not create persistent memory.
+## Upload to Claude
 
-## First request
+1. Download the ZIP above. Keep it zipped.
+2. In Claude, open **Customize > Skills**, then **+ > Create skill > Upload a skill**.
+3. Upload `systems-decision-map.zip` and turn the skill on.
+4. Start a chat with the request below and add your notes.
 
-> Use Systems Decision Map to assess this business problem. Start with the outcome and current constraint before recommending a change. Ask one question at a time if missing evidence would change the decision.
+Claude requires **Code execution and file creation** to be enabled under
+**Settings > Capabilities**. A team administrator may control skill uploads.
+[Claude's upload instructions](https://support.claude.com/en/articles/12512180-use-skills-in-claude)
+cover those settings.
 
-Add your notes or SOP and one recent example. You receive a six-stage assessment covering the outcome, constraint, intervention, downstream effects, feedback loops, and possible next constraint. Review assumptions and proposed changes before acting.
+## Upload to ChatGPT
 
-## Source
+1. Download the same ZIP and attach it to a ChatGPT Work chat that can open files.
+2. Ask: "Unzip this file, read SKILL.md, and use it to assess my business problem."
+3. Add the request below and your notes.
 
-Created by [Tech With Tam](https://techwithtam.com). This standalone distribution contains only this skill.
+If your chat cannot open the ZIP, unzip it yourself and attach `SKILL.md`, or
+paste its contents. This uses the instructions in that chat. Saving a skill for
+reuse depends on your app and workspace.
+[OpenAI's skill documentation](https://learn.chatgpt.com/docs/build-skills)
+explains the supported skill environments.
+
+## Start with your problem
+
+> Use Systems Decision Map to help me work through this problem before recommending a change. Here's what happens today, what I want to happen, and where I think we're getting stuck. Ask one question at a time if missing evidence would change the recommendation.
+
+Add a recent example, meeting notes, or your current SOP. The assessment covers
+the outcome, what's limiting it, possible changes, downstream effects, feedback
+loops, and where the next bottleneck might appear.
+
+Review the evidence and assumptions before acting. You decide what changes,
+what to spend, and who owns the work.
+
+Created by [Tech With Tam](https://techwithtam.com).
