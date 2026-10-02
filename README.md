@@ -4,17 +4,25 @@ Work through a business problem before deciding what to change. For founders and
 operations leads considering a process change, automation, or AI.
 
 **[Download the skill ZIP](https://github.com/techwithtam/systems-decision-map/releases/latest/download/systems-decision-map.zip)**
-· [Read the complete skill](SKILL.md)
+· [Read the skill](SKILL.md) · [Browse the references](references/)
 
-The ZIP contains one folder with one file:
+The ZIP contains the complete skill folder:
 
 ```text
 systems-decision-map/
-└── SKILL.md
+├── SKILL.md
+└── references/
+    ├── conversational-guide.md
+    ├── framework.md
+    ├── options-and-investment.md
+    ├── design-brief.md
+    └── examples-and-antipatterns.md
 ```
 
-All instructions and examples are in that file. No plugins, code, API keys, or
-account connections are required.
+`SKILL.md` contains the workflow and tells the assistant which reference to read
+at each step. Keep the folder together so those links work.
+
+No plugins, code, API keys, or account connections are required.
 
 ## Upload to Claude
 
@@ -31,12 +39,12 @@ cover those settings.
 ## Upload to ChatGPT
 
 1. Download the same ZIP and attach it to a ChatGPT Work chat that can open files.
-2. Ask: "Unzip this file, read SKILL.md, and use it to assess my business problem."
+2. Ask: "Unzip this file, read SKILL.md and its linked references, and use the skill to assess my business problem."
 3. Add the request below and your notes.
 
-If your chat cannot open the ZIP, unzip it yourself and attach `SKILL.md`, or
-paste its contents. This uses the instructions in that chat. Saving a skill for
-reuse depends on your app and workspace.
+If your chat cannot open the ZIP, unzip it yourself and attach `SKILL.md` and
+all five files in `references/`, or paste their contents. This uses the instructions
+in that chat. Saving a skill for reuse depends on your app and workspace.
 [OpenAI's skill documentation](https://learn.chatgpt.com/docs/build-skills)
 explains the supported skill environments.
 
